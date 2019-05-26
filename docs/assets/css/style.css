@@ -1,0 +1,57 @@
+/* active {
+    color: blue;
+} */
+
+/* ion-menu {
+    --width: 10px !important;
+    --max-width: 10px !important;
+} */
+
+ion-col {
+    border-right: 1px dotted #ffce00;
+}
+
+ion-content {
+    --ion-background-color: lightgoldenrodyellow;
+}
+
+ion-footer {
+    background: #333 !important;
+    --ion-background-color: #333 !important;
+}
+
+/* ion-col div {
+    line-height: 2vh;
+} */
+
+ion-row:nth-child(odd) {
+    background: #ffec9e !important;
+    --ion-background-color: #ffec9e !important;
+}
+
+/* ion-row:nth-child(even) {
+    background: #ffec9e !important;
+    --ion-background-color: #ffec9e !important;
+} */
+
+ion-row:first-child {
+    background: #333333 !important;
+    --ion-background-color: #333333 !important;
+    color: white !important;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+ion-row:last-child {
+    border-bottom: 3px #333333 solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.item-avatar {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 100px !important;
+    max-height: 100px !important;
+}
